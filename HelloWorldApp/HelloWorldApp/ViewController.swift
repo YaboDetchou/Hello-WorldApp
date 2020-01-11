@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     @IBAction func didChangeText(_ sender: Any) {
         
         textLabel.text = ""
-             textLabel.text = textField.text
+             textLabel.text = "Hello from \(textField.text!)!"
         view.endEditing(true)
     }
     
@@ -51,9 +51,10 @@ class ViewController: UIViewController, UITextFieldDelegate{
     
     @IBAction func tapguesture(_ sender: Any) {
         
-        textLabel.text = "Goodbye 👋 "
         view.backgroundColor = backgroundColor
         textLabel.textColor = UIColor.cyan
+        textLabel.text = "Type something."
+
 
         
         
@@ -67,5 +68,9 @@ class ViewController: UIViewController, UITextFieldDelegate{
            return true
        }
     
+    @IBAction func saygoodbyebtn(_ sender: Any) {
+        textLabel.text = "Goodbye 👋 "
+
+    }
 }
 

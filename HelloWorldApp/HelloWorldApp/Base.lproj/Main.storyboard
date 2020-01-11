@@ -43,7 +43,7 @@
                                     <constraint firstAttribute="height" constant="77" id="rtF-bb-6OT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
-                                <state key="normal" title="Change text">
+                                <state key="normal" title="Change text String">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.99438415049999995" green="0.9376218959" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -91,6 +91,17 @@
                                 </state>
                                 <connections>
                                     <action selector="didchangeTextColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sd0-TT-d1s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iV5-tk-PKy">
+                                <rect key="frame" x="20" y="665" width="374" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="28"/>
+                                <state key="normal" title="Say Goodbye!">
+                                    <color key="titleColor" red="0.99438415049999995" green="0.9376218959" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saygoodbyebtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xgv-aD-fbH"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -13,7 +13,7 @@ This app displays custom text written by the user, changes background color and 
 ### App Walk-though
 <img src="http://g.recordit.co/URu5H9KB1O.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- []` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+
 
 ### Required User Stories
 - [x ] 1. User sees custom text in a label - Hello from {name}!
